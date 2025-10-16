@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.james {
+    background: url('../images/mj.jpg');
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 230px;
+}
+
+.mj {
+    background: url('../images/james.jpg');
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.mamba {
+    background: url('../images/mamba.jpg');
+     width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 270px;
+}
