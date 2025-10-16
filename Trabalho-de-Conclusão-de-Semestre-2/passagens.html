@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SantsReis</title>
+  <link rel="stylesheet" href="css/passagens.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+          <a href="hotel.html">Hotéis</a>
+          <a href="passagens.html">Passagens</a>
+          <a href="#">Sobre nós</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="imagem-fundo">
+    <div class="frase_efeito">
+      <h1>Descubra o mundo que te espera além do horizonte.</h1>
+      <p>
+        <strong><i>Cada viagem é uma nova história, comece a sua agora.</i></strong>
+      </p>
+    </div>
+  </section>
+
+  <section class="opcoes">
+    <div class="destino">
+      <label class="destino-label">Destino</label>
+      <input type="text" class="barra-destino" placeholder="Para onde você vai?" />
+    </div>
+
+    <div class="checkin">
+      <label class="checkin-label">Check-in</label>
+      <input type="date" class="barra-checkin">
+    </div>
+
+    <div class="checkout">
+      <label class="checkout-label">Check-out</label>
+      <input type="date" class="barra-checkout" placeholder="Para onde você vai?" />
+    </div>
+
+    <div class="hospede">
+      <label class="hospede-label">Transporte</label>
+      <select name="hospede" class="barra-hospede" id="qtdhospede">
+        <option value="1">Avião</option>
+        <option value="2">Trem</option>
+        <option value="3">Ônibus</option>
+        <option value="4">Táxi</option>
+      </select>
+    </div>
+
+    <div class="button"><button>Buscar Passagens</button></div>
+  </section>
+
+  <section class="hoteis-opcoes">
+    <div class="filtro">
+      <h1>Filtros</h1>
+
+      <div class="preco-noite">
+        <label for="preco"><strong>Preço por assento</strong></label>
+        <input type="range" min="50" max="1000" />
+        <p>R$50 R$750+</p>
+      </div>
+      <hr />
+
+      <div class="avaliacao">
+        <label for="avaliacao"> <strong>Classe</strong></label>
+        <label for="5estrela">
+          <input type="checkbox" />
+          Classe Econômica
+        </label>
+        <label for="4estrela">
+          <input type="checkbox" />
+          Classe Econômica Premium
+        </label>
+        <label for="3estrela">
+          <input type="checkbox" />
+          Classe Executiva
+        </label>
+        <label for="2estrela">
+          <input type="checkbox" />
+          Primeira Classe
+        </label>
+      </div>
+      <hr />
+
+      <div class="comodidade">
+        <label for="avaliacao"><strong>Comodidades</strong></label>
+        <label for=" Wifi-Figratuito">
+          <input type="checkbox" />
+          Wifi-Fi gratuito
+        </label>
+        <label for=" Piscina">
+          <input type="checkbox" />
+          Televisão
+        </label>
+        <label for="Academia">
+          <input type="checkbox" />
+          Seriços de alimentos e bebidas
+        </label>
+        <label for="Academia">
+          <input type="checkbox" />
+          Spa
+        </label>
+  
+      </div>
+    </div>
+
+    <section class="hoteis-encontrados">
+      <div class="relevancia-hotel">
+        <h2>Hóteis encontrados</h2>
+        <select name="relevancia" id="relevancia">
+          <option value="">Ordenar por: Relevância</option>
+          <option value="">Menor preço</option>
+          <option value="">Maior preço</option>
+          <option value="">Melhor avaliação</option>
+        </select>
+      </div>
+      <hr />
+
+      <div class="hotel1-divprincipal">
+        <img src="images/ouro-preto.jpg" alt="hotel de luxo em são Paulo" />
+
+        <div class="hotel1">
+          <div class="avaliacao-icone">
+            <i class="icone"> ★★★★☆ </i>
+            <p>4.3</p>
+          </div>
+
+          <div class="promocao">
+            <h2>R$280</h2>
+            <p>por assento</p>
+          </div>
+
+          <h3>Ouro Preto<br /></h3>
+          <p> Minas Gerais</p>
+          <p class="comodidade-hotel1">
+            <span>Wifi-Fi</span>
+            <span> Seriços de alimentos  </span>
+          </p>
+          <p class="descricao">
+            Cidade histórica de Minas, com arquitetura colonial e igrejas barrocas.
+          </p>
+          <div class="button-reservar">
+            <button>Reservar</button>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <div class="hotel1-divprincipal">
+        <img src="images/campos-do-jordao-1628534716035_v2_4x3.jpg" alt="hotel de luxo " />
+
+        <div class="hotel1">
+          <div class="avaliacao-icone">
+            <i class="icone"> ★★★★★ </i>
+            <p>4.9</p>
+          </div>
+
+          <div class="promocao">
+            <h2>R$390</h2>
+            <p>por assento</p>
+          </div>
+
+          <h3>Campos do <br>Jordão</h3>
+          <p>São Paulo</p>
+           <p class="comodidade-hotel1">
+            <span>Spa</span>
+            <span> Seriços de alimentos  </span>
+           
+          </p>
+          <p class="descricao">
+           Cidade paulista com clima frio e estilo europeu, famosa no inverno.
+          </p>
+          <div class="button-reservar">
+            <button>Reservar</button>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <div class="hotel1-divprincipal">
+        <img src="images/capito.jpg" alt="hotel de luxo " />
+
+        <div class="hotel1">
+          <div class="avaliacao-icone">
+            <i class="icone"> ★★★☆☆ </i>
+            <p>3.7</p>
+          </div>
+
+          <div class="promocao">
+            <h2>R$300</h2>
+            <p>por assento</p>
+          </div>
+
+          <h3>Capitólio</h3>
+          <p>Minas Gerais</p>
+          <p class="comodidade-hotel1">
+            <span>Wifi-Fi</span>
+            <span>Piscina </span>
+            <span>Academia </span>
+            <span>Café da manhã </span>
+
+          </p>
+          <p class="descricao">
+            Região em Minas famosa por cânions e cachoeiras no Lago de Furnas.
+          </p>
+          <div class="button-reservar">
+            <button>Reservar</button>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+
+      <div class="hotel1-divprincipal">
+        <img src="images/cristo.jpg" alt="hotel de luxo " />
+
+        <div class="hotel1">
+          <div class="avaliacao-icone">
+            <i class="icone"> ★★★★★ </i>
+            <p>4.9</p>
+          </div>
+
+          <div class="promocao">
+            <h2>R$550</h2>
+            <p>por assento</p>
+          </div>
+
+          <h3>Cristo Redentor</h3>
+          <p>Rio de Janeiro</p>
+          <p class="comodidade-hotel1">
+            <span>Wifi-Fi</span>
+            <span>Piscina </span>
+            <span>Academia </span>
+            <span>Café da manhã </span>
+            <span>Estacionamento </span>
+
+          </p>
+          <p class="descricao">
+            Estátua gigante no Rio de Janeiro, símbolo do Brasil.
+          </p>
+          <div class="button-reservar">
+            <button>Reservar</button>
+          </div>
+        </div>
+      </div>
+      <hr />
+      
+
+      </div>
+    </section>
+  </section>
+
+  <footer id="sobre">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>Links Rápidos</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Início</a></li>
+              <li><a href="#">Cultura</a></li>
+              <li><a href="#">Mais visitados</a></li>
+              <li><a href="#">Passagens aéreas</a></li>
+            </ul>
+          </div>
+    
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p>Email: contato@vibebrasil.com</p>
+            <p>Telefone: +55 11 99999-9999</p>
+            <p>Endereço: Rua das Palmeiras, 123 - São Paulo, SP</p>
+          </div>
+    
+          <div class="footer-section">
+            <h3>Siga-nos</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook" title="Facebook">📘</a>
+              <a href="#" aria-label="Instagram" title="Instagram">📸</a>
+              <a href="#" aria-label="Twitter" title="Twitter">🐦</a>
+              <a href="#" aria-label="LinkedIn" title="LinkedIn">🔗</a>
+            </div>
+          </div>
+        </div>
+    
+        <p>&copy; 2025 Todos os direitos reservados.</p>
+      </footer>
+
+
+</body>
+
+</html>
