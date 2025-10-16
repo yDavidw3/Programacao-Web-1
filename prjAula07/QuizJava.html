@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de TPA</title>
+</head>
+<body style="background-color: rgb(15, 23, 42);">
+    <form action="" method="post">
+   <br>
+        <br>
+        <center>
+        <a href="index.html"><img src="images/Início.png" alt="Início"></a>
+        <br>
+        <br>
+        </center>
+
+        <center>
+            <fieldset>
+        
+         <!---Informações do user------------------------------------------------------------------------------------------------------------------------------------------------------------->
+       
+            
+            <legend style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Dados pessoais</legend>
+            <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Nome:</label>
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <br>
+
+            <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Email:</label>
+            <input type="email" name="email" placeholder="Seuemail@html.com" required>
+            <br>
+
+            <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Ensino Médio:
+            <select name="escolaridade">
+            <option value="1y"> 1° Ano </option>
+            <option value="2y"> 2° Ano </option>
+            <option value="3y"> 3° Ano </option>
+            </select required> </label>
+            <br>
+
+            <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">N°:</label>
+            <input type="number" min="1" max="40" name="name" placeholder="Número da chamada." required>
+            <br>
+
+            
+    <!------------Escolaridade-------------------------------------------------------------------------------------------------------------------------------------------------------->
+ 
+              
+            <!--Data Nascimento -->
+           
+                <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Data Nascimento</label>
+                <br>
+                <input type="date" name="Nascimento" placeholder="Data Nascimento" max="2010-12-31" required>
+            <br>
+            <br>
+            </fieldset>
+            <br>
+            <br>
+
+    <!---Questão 1--------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <fieldset>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 25px; color: #F1F5F9;">1 - System.out.println(hello world!) 
+        <br>
+        onde está o erro?</label></h1>
+
+     <select name="alternativaCerta">
+      
+        <option value="Começo">;</option>
+        <option value="Início">""</option>
+        <option value="Prompt">O "S" do system tem que ser minúsculo</option>
+        <option value="Terminal">O erro é printnl</option>
+        <option value="s">"" e o ;</option>
+     </select>
+    
+        <br>
+        <br>
+    <!---Questão 2------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h1 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px; color: #F1F5F9;"> 2 - o que faz a função in.close(); 
+    <br>
+    em Java?</label></h1>
+       
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="portugol" value="questão2">Abre o fluxo de entrada para ler dados.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="portugol" value="certa">Fecha o fluxo de entrada, liberando recursos.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="portugol" value="questao2">Salva os dados lidos no arquivo.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="portugol" value="questao2">Inicializa a variável in.</p></p>
+
+        <br>
+     
+    <!---Questão 3------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px; color: #F1F5F9;"> 3 - Assinale todas as alternativas corretas sobre variáveis e tipos de dados em Java:</label></h2>
+
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="s">Variáveis do tipo boolean só podem armazenar os valores true ou false.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="s">A palavra-chave int define uma variável capaz de armazenar números inteiros.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="err">Strings são tipos primitivos e armazenam apenas um caractere.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="s">O tipo char armazena um único caractere Unicode.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="r">A variável double armazena apenas números inteiros com sinal.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="s">Final define uma constante cujo valor não pode ser alterado.</p></p>
+
+        <br>
+    <!---Questão 4------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h1 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px; color: #F1F5F9;"> 4 - O que é o JDk?</label></h1>
+        
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="algoritimo" value="Leia">Um programa que executa código Java.</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="algoritimo" value="Apresente">Uma linguagem de programação diferente do Java.</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="algoritimo" value="certo">Um conjunto de ferramentas para desenvolver e compilar programas Java.</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="algoritimo" value="Revele">Um banco de dados para armazenar arquivos Java.</p></p>
+
+        <br>
+    <!---Questão 5------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px; color: #F1F5F9;"> 5 - Qual empresa têm os direitos do Java</label></h2>
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 21px; color: #F1F5F9;"> (Dona do Java)?</label></h2>
+     
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="CamelCase" value="err">Microsoft</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="CamelCase" value="err">IBM</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="CamelCase" value="err">Google</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="CamelCase" value="err">Orakle</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="CamelCase" value="err">Amazon</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="CamelCase" value="s">Oracle</p></p>
+
+        <br>
+    <!---Questão 6------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 6 - Qual o significado da xícara de café na logo do Java?</label></h2>
+        
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="sim">É um símbolo que remete à ilha indonésia de Java, famosa pela produção de café.</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">Representa que Java é usado só em cafeterias.</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">É um símbolo aleatório sem significado.</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">É uma homenagem a um café famoso em São Francisco.</p></p>
+
+        <br>
+    <!---Questão 7------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 7 - O que acontece se o programador tentar usar uma variável em Java antes de inicializá-la?</label></h2>
+       
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">O compilador interpreta automaticamente o tipo da variável, atribuindo um valor padrão com base na dedução contextual, e segue a execução normalmente, sem gerar erro.</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">A máquina virtual Java (JVM) executa o código atribuindo um valor simbólico temporário até que o valor real seja atribuído durante a execução principal.</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="sim">O código é compilado com avisos, mas o valor padrão da variável será null ou 0, dependendo do tipo primitivo ou objeto que representa.</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">O compilador exibe um erro, pois em Java é obrigatório inicializar variáveis locais antes de utilizá-las, para garantir integridade e previsibilidade.</p></p>
+
+        <br>
+    <!---Questão 8------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 8 - O resultado da soma de 47 + 50 é 97! Como eu faço para colocar uma variável junto à frase (String)</label></h2>
+        
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="nao">System.out.println("O resultado da soma de 47 + 50 é resultado!");</p></p>      
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="sim">System.out.println("O resultado da soma de 47 + 50 é " + resultado + "!");</p></p>   
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="nao">System.out.println("O resultado da soma de 47 + 50 é " resultado "!");</p></p>   
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="nao">System.out.println("O resultado da soma de 47 + 50 é " + "resultado" + "!");</p></p>
+        
+        <br>
+     <!---Questão 9------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 9 - Por que criar uma class em Java ao invés de apenas um projeto Java para escrever códigos?</label></h2>
+            
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="TPA">Porque o Java não suporta projetos, só classes.</p></p> 
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="TPA"> Porque classes só servem para organizar arquivos, não para executar código.</p></p>   
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="TPA">Porque um projeto Java não é necessário para rodar código.</p></p>    
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="sim">Porque todo código Java deve estar dentro de uma class para funcionar.</p></p>
+              
+        <br>
+     <!---Questão 10------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 10 - Qual a principal função do método main em Java?</label></h2>
+        
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="TPA">Executa a inicialização avançada de componentes gráficos e configurações específicas da interface do usuário antes da execução principal.</p></p>  
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="sim">Atua como o ponto inicial de execução do programa, onde o código começa a ser interpretado e processado pelo ambiente de execução.</p></p>   
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="TPA">É responsável por realizar a alocação dinâmica de memória para variáveis e objetos utilizados em todo o escopo do programa.</e></p></p>   
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="TPA">Controla o gerenciamento automático de recursos e a coleta de lixo para otimizar o desempenho da aplicação em tempo de execução.</p></p>     
+     
+     <br>
+     <br>
+
+     <!--enviar-->
+    <button type="submit">Enviar resposta</button>
+    <br>
+    <br>
+    <br>
+    
+      </fieldset>
+    </center>
+    </form>
+</body>
+</html>

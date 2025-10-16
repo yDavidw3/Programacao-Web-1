@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de TPA</title>
+</head>
+<body style="background-color: rgb(15, 23, 42);">
+    <form action="" method="post">
+   <br>
+        <br>
+        <center>
+        <a href="index.html"><img src="images/Início.png" alt="Início"></a>
+        <br>
+        <br>
+        </center>
+
+        <center>
+            <fieldset>
+        
+         <!---Informações do user------------------------------------------------------------------------------------------------------------------------------------------------------------->
+       
+            
+            <legend style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Dados pessoais</legend>
+            <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Nome:</label>
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <br>
+
+            <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Email:</label>
+            <input type="email" name="email" placeholder="Seuemail@html.com" required>
+            <br>
+
+            <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Ensino Médio:
+            <select name="escolaridade">
+            <option value="1y"> 1° Ano </option>
+            <option value="2y"> 2° Ano </option>
+            <option value="3y"> 3° Ano </option>
+            </select required> </label>
+            <br>
+
+            <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">N°:</label>
+            <input type="number" min="1" max="40" name="name" placeholder="Número da chamada." required>
+            <br>
+
+            
+    <!------------Escolaridade-------------------------------------------------------------------------------------------------------------------------------------------------------->
+ 
+              
+            <!--Data Nascimento -->
+           
+                <label style="font-family:Arial, Helvetica, sans-serif; color: #F1F5F9;">Data Nascimento</label>
+                <br>
+                <input type="date" name="Nascimento" placeholder="Data Nascimento" max="2010-12-31" required>
+            <br>
+            <br>
+            </fieldset>
+            <br>
+            <br>
+
+    <!---Questão 1--------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <fieldset>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 25px; color: #F1F5F9;">1 - Alguma das formas abaixo está CORRETA 
+        <br>
+        para um nome de variável?</label></h1>
+        
+        <br>
+        <br>
+
+        <img src="images/Cenário1.png" alt="imagem com alternativas">
+        <br>
+   
+        
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao1">Sim</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao1">Não</p></p>
+
+    <!---Questão 2------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h1 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px; color: #F1F5F9;"> 2 - Como se pede a apresentação de um 
+    <br>
+    resultado em portugol?</label></h1>
+       
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="portugol" value="Leia">Leia</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="portugol" value="Apresente">Apresente</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="portugol" value="Escreva">Escreva</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="portugol" value="Revele">Revele</p></p>
+        
+        <br>
+     
+    <!---Questão 3------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h1 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px; color: #F1F5F9;"> 3 - Qual o nome do fluxograma abaixo?</label>
+     
+        <br>
+        <br>
+
+     <img src="images/image-removebg-preview.png" alt="imagem com um fluxograma"/>
+        <br>
+        <br>
+     <select name="Nome do fluxograma">
+      
+        <option value="Começo">Começo</option>
+        <option value="Início">Início</option>
+        <option value="Prompt">Prompt</option>
+        <option value="Terminal">Terminal</option>
+     </select>
+    
+        <br>
+
+    <!---Questão 4------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h1 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px; color: #F1F5F9;"> 4 - O que é um algoritimo?</label></h1>
+     
+        <br>
+
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="algoritimo" value="Leia">é uma sequência de raciocínios, instruções ou operações para alcançar um 
+        <br>
+       objetivo,  sendo necessário que os passos sejam finitos e operados sistematicamente</p></p>
+       
+
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="algoritimo" value="Apresente"> é um espaço na memória da máquina onde são armazenados 
+        <br>
+        dados que podem ser alterados durante a execução de um programa</p></p>
+        
+        
+
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="algoritimo" value="Mostre">é um valor fixo e inalterável que é atribuído a um identificador </p></p>
+        
+        
+
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="algoritimo" value="Revele">São os ritimos que os dados operam</p></p>
+
+       
+    <!---Questão 5------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px; color: #F1F5F9;"> 5 - Assinale as opções corretas</label></h2>
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 21px; color: #F1F5F9;"> Quais são CamelCase?</label></h2>
+     
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="nomeCompleto">NomeCompleto</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="Valor_Total">Valor_Total</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="salarioLiquido">salarioLiquido</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="Salariobruto">Salariobruto</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="Prestacoes_a_pagar">Prestacoes_a_pagar</p></p>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="checkbox" name="CamelCase" value="contaBancaria">contaBancaria</p></p>
+
+        <br>
+    <!---Questão 6------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 6 - Quantos dados ficam em uma variável?</label></h2>
+        <p style="font-size: 20px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="number" min="1" name="questao6"></p></p>
+     <br>
+    <!---Questão 7------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 7 - Constante é:</label></h2>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="sim">Um valor armazenado na memória que pode ser alterado durante a execução de um programa</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">Um espaço armazenado na memória RAM que não pode ser alterado durante a execução de um programa</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">Um valor armazenado na memória RAM que não pode ser alterado durante a execução de um programa</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">Um espaço armazenado no HDD (Hard Disk Drive) que pode pode ter mais de um valor enquanto o programa não foi executado por um user</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao7" value="nao">Uma variável que o progamador sabe que está lá no programa - desde a inicialização. Portanto a sua ciência não importa nem para o user, nem para o programador</p></p>
+
+    <!---Questão 8------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 8 - O que esse fluxograma faz?</label></h2>
+            <img src="images/elaticwf.png"/>
+            <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="nao">Funciona como conexão para outros fluxogramas</p></p>      
+            <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="nao">Faz a entrada de dados</p></p>   
+            <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="nao">Sinaliza a alteração de página, para que não ocorram erros</p></p>   
+            <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="sim">Faz o processamento de dados</p></p>
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao8" value="nao">Faz uma decisão. Entre duas alternativas, sim e não</p></p>   
+        
+     <!---Questão 9------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 9 - Qual a importância da matéria TPA, para o meio computacional?</label></h2>
+            <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="TPA">É uma matéria que visa reconhecer os valores das capacitações de cada variável em suas atividades 
+                <br>
+                fundamentais para o meio da contituição dos progragamadores mirins</p></p>  
+
+            <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="TPA">É uma das matérias de programação que visa nos aprofundar nos assuntos sobre marcações específicas 
+                <br>
+                nas linguagens de personificação. Ela estuda os principios de todos 
+                <br>
+                os dados usados para uma função específica dentro de um campo magnético
+                <br>
+                específico e funções quadráticas </p></p>   
+
+            <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="TPA">Mais conhecida por sua imensa compreensão digital, a matéria tem como uma de suas base elementares 
+                <br>
+                uma fortificação do conhecimento do aluno. Podemos ver que muitos não 
+                <br>
+                sabem ainda sobre temas futuros como figuras rítimicas, sustenidos, p, 
+                <br>
+                pp, ppp, e muitas outras coisas que dificeis do entendimento do aluno. 
+                <br>
+                Portanto, a matéria tem como objetivo, ajudá-los a entender a importância 
+                <br>
+                desses dados e outras coisas.</e></p></p>   
+
+            <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="TPA">Ela é fundamental para desenvolver a capaciade de pensamento lógico do aluno. Sabe-se que Java não 
+                <br>
+                é uma matéria muito fácil, portanto, explorar as capacidade máximas de 
+                <br>
+                pensamento do aluno para saber seus pontos fracos, e depois fortificá-los 
+                <br>
+                é um dos objetivos dessa matéria. Além disso, a compreensão de como funcionam 
+                <br>
+                os algoritimos, tipos de dados e o armazenamento dos mesmos, serão reforçados,
+                <br>
+                para que não nos esqueçamos que toda essa parte é fundamental para o progresso
+                <br> do aluno.</p></p>
+
+        <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao9" value="TPA">Ela é uma matéria que visa atingir um único objetivo; saber quando ultilizar o html</p></p>   
+        
+     <!---Questão 10------------------------------------------------------------------------------------------------------------------------------------------------------------->
+     <h2 style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><label style="font-size: 30px;"> 10 - Qual é o comando de leitura de váriavel String em Java?</label></h2>
+     <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="TPA">in = in.next(); </p></p>  
+
+     <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="TPA">in = in.nextChar();</p></p>   
+
+     <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="TPA">in = charlernext();</e></p></p>   
+
+     <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="TPA"> in = nexInt()</p></p>
+
+     <p style="font-size: 21px;"><p style="font-family: Arial, Helvetica, sans-serif; color: #F1F5F9;"><input type="radio" name="questao10" value="TPA"> in.close();</p></p> 
+     
+     <br>
+     <br>
+
+     <!--enviar-->
+    <button type="submit">Enviar resposta</button>
+    <br>
+    <br>
+    <br>
+    
+      </fieldset>
+    </center>
+    </form>
+</body>
+</html>
