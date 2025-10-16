@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body style= background-color:aliceblue>
+    <form>
+<!---------------------------------------------------------------------------------------------------------------------->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+<!---------------------------------------------------------------------------------------------------------------------->
+        <center>
+            <h1 style="font-family:Arial, Helvetica, sans-serif;">Criar conta</h1>
+        </center>
+        <br>
+
+        <!-- Nome do titular -->
+        <center>
+        <label style="font-family:Arial, Helvetica, sans-serif;">Seu nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+        </center> 
+        <br>
+
+       <!-- Número de telefone -->
+        <center>
+            <label style="font-family:Arial, Helvetica, sans-serif;">Telefone:</label>
+            <input type="tel" name="Telefone" placeholder="(XX)XXXXX-XXXX"/>
+        </center>
+        <br>
+    
+        <!-- E-mail do titular -->
+        <center>
+            <label style="font-family:Arial, Helvetica, sans-serif;">E-mail:</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            </center>
+        <br>
+
+
+        <!-- Gênero do titular -->
+        <center>
+            <label style="font-family:Arial, Helvetica, sans-serif;">Gênero:</label>
+            <input type="radio" name="Gênero" value="Masculino">Masculino
+            <input type="radio" name="Gênero" value="Feminino">Feminino
+            </center>
+            <br>    
+
+        <!-- Estado Civil -->
+        <center>
+            <label style="font-family:Arial, Helvetica, sans-serif;">Estado Civil:</label>
+            <select name="Estado Civil">
+                <option>Selecione</option>
+                <option value="Solteiro">Solteiro</option>
+                <option value="Casado">Casado</option>
+                <option value="Divorciado">Divorciado</option>
+            </select>
+        </center>
+            <br>
+
+
+         <!-- Senha -->
+        <center>
+            <label style="font-family:Arial, Helvetica, sans-serif;">Senha:</label>
+          <input type="password" name="Senha" placeholder="Insira uma senha forte">
+        </center>
+        <br>
+      
+                
+        <!-- Confirme a senha -->
+         <center>
+             <label style="font-family:Arial, Helvetica, sans-serif;">Confirme a senha:</label>
+             <input type="password" name="Senha" placeholder="Insira uma senha forte">
+         </center>
+        <br>
+        
+
+        <!--Enviar-->
+        <center>
+        <button type="submit">Enviar</button>
+        </center>
+    
+
+        <center>
+            <p>Você já tem uma conta? <a href="index.html">Entre</a></p>
+        </center>
+    </form>
+</body>
+</html>
