@@ -1,0 +1,90 @@
+body {
+    background: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.titulo {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 39px;
+    padding-left: 50px;
+}
+
+.txt {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+.login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin: 234px;
+}
+
+.barra {
+    border-color: rgba(40, 40, 248, 0.829);
+    outline: none;
+    border-radius: 5px;
+    height: 6vh;
+    width: 25vw;
+    background-color: transparent;
+    color: white
+}
+
+.botao {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(40, 40, 248, 0.829);
+    height: 7vh;
+    width: 26vw;
+    border-radius: 7px;
+    border: 4px;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.botao:hover{
+    background-color: rgb(69, 60, 192);
+    
+}
+
+
+.foot{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ainda{
+    text-decoration: none;
+    text-decoration-line: none;
+    color:rgba(0, 132, 255, 0.829);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ainda:hover{
+    color: rgb(74, 74, 255);
+}
+.Esqueci {
+    text-decoration: none;
+    text-decoration-line: none;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 330px;
+}
+
+strong{
+    text-decoration: none;
+    text-decoration-line: none;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 120px;
+}
+
