@@ -1,0 +1,135 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6ec;
+  color: #222;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+ .navbar a img {
+    height: 45px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 34px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #7c2a2a;
+}
+
+h1 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.h2 {
+  color: #222;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.livro {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+ .livros img{
+    max-width:100%; 
+    width: 100%;
+    border-radius: 10px;
+ }
+
+.livros {
+  text-align: center;
+  align-items: center;
+  width: 51%;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.nomelivra{
+  color: #fff;
+  margin-bottom: 15px;    
+}
+
+
+
+.sec_duas_colunas{
+    display: flex;
+}
+
+.coluna1de2{
+    width: 47%;    
+}
+
+ .coluna1de2 img{
+    max-width:100%; 
+    width: 100%;
+    border-radius: 10px; 
+}
