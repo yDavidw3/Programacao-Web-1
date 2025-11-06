@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.divs{
+    padding-top: 2%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 5%;
+    padding-right: 5%;
+    filter: drop-shadow(5px 5px 5px gray);
+    margin-bottom: 2%;
+    border-radius: 12px;
+}
+
+.dis{
+    margin-bottom: 3%;
+}
+
+.cor{
+    margin-bottom: 2%;
+}
+
+.fake{
+    cursor: pointer;
+}
+
+.u{
+    text-decoration: none;
+}
